@@ -30,8 +30,7 @@
       height: 32px
       margin-right: 9px
      .text
-      display: inline-block
-      vertical-align: top
-      line-height: 44px
+      display: inline-block      
+      line-height: 36px
       font-size: $font-size-large
 </style>
