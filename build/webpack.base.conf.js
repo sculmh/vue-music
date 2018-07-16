@@ -35,6 +35,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': resolve('src'),
+      //以下为新增加的代码
       'common':resolve('src/common'),
       'components': resolve('src/components')
     }
