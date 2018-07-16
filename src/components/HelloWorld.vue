@@ -1,14 +1,19 @@
-<template>
-  <div class="hello">
-   
-  </div>
-</template>
+  <template>
+   <div class="c">
+     
+   </div>
+  </template>
 
-<script>
+  <script type="text/ecmascript-6">
+  import Header from './m-header/m-header'
+  export default {
+    name: 'helloworld',
+    components: {
+      Header
+    }
+  }
+  </script>
 
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
+  <style scoped lang="stylus" rel="stylesheet/stylus">
+  
+  </style>
